@@ -4,7 +4,11 @@
     "type": "library",
     "require": {
         "php": "^7.3",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^7.0",
+        "akashrajput9/php-cpanel-email-master": "dev-master"
+    },
+    "config": {
+        "minimum-stability": "dev"
     },
     "autoload": {
         "psr-4": {
