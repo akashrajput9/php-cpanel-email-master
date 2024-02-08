@@ -1,9 +1,10 @@
 {
     "name": "akashrajput9/cpanel-email",
-    "description": "This package will help to fetch emails from cpanel or create emails to cpanel",
-    "type": "composer-plugin",
+    "description": "This package will help to fetch emails from cPanel or create emails to cPanel",
+    "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "7.2"
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
         "psr-4": {
